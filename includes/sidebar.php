@@ -21,6 +21,14 @@
             <img class="icon" src="assets/icons/building.svg" alt="">
             <span>Entreprises</span>
         </a>
+        <?php $statusPages = ['statuses.php', 'status-create.php', 'status-edit.php']; ?>
+        <a class="sidebar__link <?= in_array($currentPage, $statusPages) ? 'sidebar__link--active' : '' ?>" href="statuses.php" <?= in_array($currentPage, $statusPages) ? 'aria-current="page"' : '' ?>>
+            <span>Statuts</span>
+        </a>
+        <?php $servicePages = ['services.php', 'service-create.php', 'service-edit.php']; ?>
+        <a class="sidebar__link <?= in_array($currentPage, $servicePages) ? 'sidebar__link--active' : '' ?>" href="services.php" <?= in_array($currentPage, $servicePages) ? 'aria-current="page"' : '' ?>>
+            <span>Services</span>
+        </a>
     </nav>
 
 
