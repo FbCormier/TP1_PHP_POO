@@ -1,0 +1,85 @@
+:root {
+    /* Palette principale */
+    --brand-color: #0F766E; /* Actions, liens, progression */
+    --blue-night-color: #172326; /* Navigation et fonds forts */
+    --text-color: #182326; /* Titres et contenu principal */
+    --text-secondary-color: #667579; /* Métadonnées et aide */
+    --border-color:#DDE4E3; /* Contours et séparateurs */
+    --surface-color: #F5F7F7; /* Fond de page et groupes */
+
+    /* State color */
+    
+    /* Success — Succès */
+    --success-text-color: #2F7D4A;
+    --success-bg-color: #E8F5EC;
+
+    /* Warning — Avertissement */
+    --warning-text-color: #B5630C;
+    --warning-bg-color: #FFF2DF;
+
+    /* Error — Erreur */
+    --error-text-color: #B54747;
+    --error-bg-color: #FCEAEA;
+
+    /* Neutral — Neutre */
+    --neutral-bg-color: #F1F4F4;
+
+    /* Font & Typography */
+    --font-family: "Inter", sans-serif;
+
+    /* Font weights */
+    --font-weight-regular: 400;
+    --font-weight-medium: 550;
+    --font-weight-semibold: 650;
+    --font-weight-bold: 700;
+
+    /* H1 — Page */
+    --h1-font-size: 40px;
+    --h1-line-height: 48px;
+
+    /* H2 — Section */
+    --h2-font-size: 30px;
+    --h2-line-height: 38px;
+
+    /* H3 — Group */
+    --h3-font-size: 20px;
+    --h3-line-height: 28px;
+
+    /* H4 — Card */
+    --h4-font-size: 16px;
+    --h4-line-height: 24px;
+
+    /* Body */
+    --body-font-size: 14px;
+    --body-line-height: 21px;
+
+    /* Small text */
+    --small-font-size: 12px;
+    --small-line-height: 18px;
+
+    /* Label */
+    --label-font-size: 11px;
+    --label-line-height: 16px;
+
+    /* Grid & Spacing */
+
+    /* Spacing — Base de 4 px */
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-6: 24px;
+    --space-8: 32px;
+
+    /* Layout */
+    --page-padding: 32px;
+    --sidebar-width: 220px;
+
+    /* Border radius */
+    --radius-md: 8px;
+    --radius-lg: 12px;
+
+    /* Shadow — Décalage X, Y, flou, opacité */
+    --shadow-subtle: 0 6px 20px rgb(0 0 0 / 4%);
+
+}
